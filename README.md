@@ -4,11 +4,11 @@ My own programming language built in go (in development)
 You must separe the instruction with -|
 
 **KEYWORDS**
-*out*:
+*out*:\n
     out [text]
     
     to write variables you only have to write $variable-name in the text
-*var*:
+*var*:\n
     var [name] [type] (content)
     
     The types are
