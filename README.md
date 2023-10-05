@@ -9,7 +9,7 @@ You must separe the instruction with -|
 
     out [text]
     
-    to write variables you only have to write $variable-name in the text
+    to write variables you only have to write ${variableType-variableName} in the text
 *var*:
 
     var [name] [type] (content)
@@ -20,6 +20,19 @@ You must separe the instruction with -|
       - Float32 (or float)
       - Float64
       - Bool
+*if*:
+
+    if condition:
+        out True
+        out Hi
+    -
+        out False
+        out not a good day, the condition is false
+*in*:
+
+    in [variableName]
+
+
 
 
 
