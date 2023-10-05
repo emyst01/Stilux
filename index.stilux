@@ -1,7 +1,12 @@
-out salve, come va? tutto bene?
+out Program written in Stilux
 -|
-var lorenzoIntelligente bool false
+out What's your name?
 -|
-out test bellissimo finalmente funziona tutto
+in name
 -|
-out continuo a lavorare domani
+out Hey ${string-name}
+-|
+if 4>2:
+    out true
+-
+    out false
